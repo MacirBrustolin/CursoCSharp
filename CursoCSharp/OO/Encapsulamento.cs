@@ -5,7 +5,7 @@ using Encapsulamento;
 
 namespace CursoCSharp.OO {
     public class FilhoNaoReconhecido : SubCelebridade {
-        public void MeusAcessos() {
+        public new void MeusAcessos() {
             Console.WriteLine("Filho não reconhecido...");
 
             Console.WriteLine(InfoPublica);
